@@ -34,21 +34,22 @@ Python 3.x
 
 ## 📁 Project Structure
 ```
-ITDV/
+traffic_violation/
 │
-├── yolov5_notebook.ipynb        # Main YOLOv5 training & detection notebook
+├── yolov5.ipynb        # Main YOLOv5 training & detection notebook
 ├── .gitignore                   # Ignored files (e.g., runs/, __pycache__/)
 ├── README.md                    # Project documentation
 │
-├── Data/                        # Dataset folder (images, labels)
-│   ├── train/                   # Training images & annotations
-│   ├── val/                     # Validation images & annotations
-│
-├── Output/                      # Model outputs (detections, results)
-│   ├── yolov5/                  # YOLOv5 model folder or results
-│   └── __results__files/        # Exported detection results
-│
-└── Dataset/                     # Metadata or preprocessed dataset
+├── ITDV/                        # Main project directory
+│   ├── Dataset/                    # Dataset folder (images, labels)
+│   │   ├── train/               # Training images & annotations
+│   │   ├── val/                 # Validation images & annotations
+│   │
+│   ├── Output/                  # Model outputs (detections, results)
+│   │   └── __results__files/    # Exported detection results
+│   │
+│   └── requirements.txt         # Project dependencies
+
 ```
 
 ## How It Works
